@@ -1,0 +1,14 @@
+{
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedVariable": "none",
+    "reportUnusedImport": "none"
+  },
+  "pylint.args": [
+    "--disable=all"
+  ],
+  "flake8.args": [
+    "--ignore=E,W,F,C,N"
+  ],
+  "editor.problems.visibility": false
+}
